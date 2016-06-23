@@ -130,15 +130,12 @@ a {
 }
 
 
-/* Page */
-#page {
-    width: 1000px;
+/* Main */
+main {
+    width: 100%;
     margin: 0 auto;
-    padding: 30px 0px;
 }
 
-
-/* Main */
 .post {
     overflow: hidden;
     margin-bottom: 40px;
