@@ -41,17 +41,8 @@ a {
     background: #FFFFFF url(../img/img05.jpg) repeat;
 }
 
-.container {
-    width: 1000px;
-    margin: 0px auto;
-}
-
 
 /* Header */
-#header-wrapper {
-    overflow: hidden;
-}
-
 #header {
     width: 1000px;
     height: 150px;
@@ -148,6 +139,14 @@ a {
 }
 
 
+/* Content */
+#content {
+    float: right;
+    width: 660px;
+    padding: 0px 0px 0px 0px;
+}
+
+
 /* Page */
 #page {
     width: 1000px;
@@ -156,13 +155,7 @@ a {
 }
 
 
-/* Content */
-#content {
-    float: right;
-    width: 660px;
-    padding: 0px 0px 0px 0px;
-}
-
+/* Main */
 .post {
     overflow: hidden;
     margin-bottom: 40px;
