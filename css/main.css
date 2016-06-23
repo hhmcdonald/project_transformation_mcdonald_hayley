@@ -253,15 +253,15 @@ main {
 
 /* Footer */
 #footer {
-    height: 140px;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
-    padding: 50px 0 15px 0;
+    padding: 15px 0 15px 0;
     font-family: 'Abel', sans-serif;
 }
 
 #footer p {
-    margin: 0;
-    padding-top: 10px;
+    margin: 0 auto;
     letter-spacing: 1px;
     line-height: normal;
     font-size: 14px;
