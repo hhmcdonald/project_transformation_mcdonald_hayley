@@ -56,6 +56,12 @@ a {
     margin: 0 auto;
 }
 
+.group:after {
+	content: ‘’;
+	clear: both;
+	display: block;
+}
+
 
 /* Header */
 header {
@@ -181,10 +187,6 @@ article .meta {
     font-family: 'Abel', sans-serif;
     font-size: 16px;
     font-weight: 300;
-}
-
-article .meta .date {
-    float: left;
 }
 
 article .meta .posted {
