@@ -7,7 +7,9 @@ body {
     color: #5B5B5B;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
@@ -29,19 +31,15 @@ h3 {
     font-size: 1.6em;
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
     margin-top: 0;
     line-height: 180%;
 }
 
-ul, ol {
-}
-
 a {
     color: #5E5E5E;
-}
-
-a:hover {
 }
 
 #wrapper {
@@ -53,8 +51,8 @@ a:hover {
     margin: 0px auto;
 }
 
-/* Header */
 
+/* Header */
 #header-wrapper {
     overflow: hidden;
 }
@@ -66,17 +64,14 @@ a:hover {
     padding: 0px 0px;
 }
 
-/* Logo */
 
+/* Logo */
 #logo {
     float: left;
     width: 300px;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
-}
-
-#logo h1, #logo p {
 }
 
 #logo h1 {
@@ -110,16 +105,16 @@ a:hover {
     color: #000000;
 }
 
-/* Splash */
 
+/* Splash */
 #splash {
     width: 960px;
     height: 300px;
     margin: 0px auto;
 }
 
-/* Search */
 
+/* Search */
 #search {
     float: right;
     width: 280px;
@@ -157,8 +152,8 @@ a:hover {
     color: #000000;
 }
 
-/* Menu */
 
+/* Menu */
 #menu {
     float: right;
     width: 500px;
@@ -195,25 +190,23 @@ a:hover {
     border: none;
 }
 
-#menu a:hover, #menu .current_page_item a {
+#menu a:hover,
+#menu .current_page_item a {
     background: url(../img/img01.jpg) repeat;
     text-decoration: none;
     color: #FFFFFF;
 }
 
-#menu .current_page_item a {
-}
 
 /* Page */
-
 #page {
     width: 1000px;
     margin: 0 auto;
     padding: 30px 0px;
 }
 
-/* Content */
 
+/* Content */
 #content {
     float: right;
     width: 660px;
@@ -254,9 +247,6 @@ a:hover {
     float: right;
 }
 
-.post .meta a {
-}
-
 .post .entry {
     padding: 0px 0px 40px 0px;
     text-align: justify;
@@ -290,8 +280,8 @@ a:hover {
     text-decoration: none;
 }
 
-/* Sidebar */
 
+/* Sidebar */
 #sidebar {
     float: left;
     width: 270px;
@@ -357,11 +347,8 @@ a:hover {
     text-decoration: underline;
 }
 
+
 /* Calendar */
-
-#calendar {
-}
-
 #calendar_wrap {
     padding: 20px;
 }
@@ -378,8 +365,8 @@ a:hover {
     text-align: right;
 }
 
-/* Three Column Footer Content */
 
+/* Three Column Footer Content */
 #footer-content {
     overflow: hidden;
     width: 1000px;
@@ -405,7 +392,6 @@ a:hover {
     color: #262626;
 }
 
-
 #footer-content #fbox1 {
     float: left;
     width: 300px;
@@ -420,9 +406,6 @@ a:hover {
 #footer-content #fbox3 {
     float: right;
     width: 300px;
-}
-
-#footer-content a {
 }
 
 #column1 {
@@ -441,8 +424,8 @@ a:hover {
     width: 260px;
 }
 
-/* Footer */
 
+/* Footer */
 #footer {
     height: 140px;
     margin: 0 auto;
@@ -506,10 +489,6 @@ a:hover {
     height: 340px;
     background: url(../img/img03.png) no-repeat left bottom;
 }
-
-#banner .content {
-}
-
 
 .list-style1 {
     margin: 0px;
