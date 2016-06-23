@@ -211,30 +211,25 @@ main {
     margin: 0 auto;
 }
 
-#sidebar ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-#sidebar li {
-    margin: 0;
+#sidebar section {
+    margin: 0 auto;
     padding: 0;
 }
 
-#sidebar li ul {
-    margin: 0px 0px;
+#sidebar section ul {
+    margin: 0 auto;
     padding-bottom: 30px;
+    list-style-type: none;
 }
 
-#sidebar li li {
+#sidebar section li {
     line-height: 40px;
     border-bottom: 1px solid #E7EBED;
-    margin: 0px 0px;
+    margin: 0 auto;
     border-left: none;
 }
 
-#sidebar li li a {
+#sidebar section li a {
     padding: 0px 0px 0px 20px;
     background: url(../img/img04.jpg) no-repeat left 50%;
 }
