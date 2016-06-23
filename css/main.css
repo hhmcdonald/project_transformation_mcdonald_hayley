@@ -53,6 +53,7 @@ a {
 
 .container {
     max-width: 1000px;
+    margin: 0 auto;
 }
 
 
@@ -267,6 +268,18 @@ aside a {
 
 aside a:hover {
     text-decoration: underline;
+}
+
+@media all and (min-width: 950px) {
+    main {
+        float: right;
+        margin-left: 1.5em;
+        width: calc(100% / 3 * 2);
+    }
+    aside {
+        float: left;
+        width: calc(100% / 3 - 1.5em);
+    }
 }
 
 
