@@ -121,17 +121,12 @@ a {
 /* Banner */
 #banner {
     margin: 0px auto;
-    width: 1000px;
-    height: 340px;
     background: url(../img/img03.png) no-repeat left bottom;
 }
 
-
-/* Content */
-#content {
-    float: right;
-    width: 660px;
-    padding: 0px 0px 0px 0px;
+#banner img {
+    width: 100%;
+    height: auto;
 }
 
 
