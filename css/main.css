@@ -74,10 +74,10 @@ header {
 
 /* Logo */
 #logo {
-    width: 100%;
+    width: 98%;
     height: auto;
     margin: 0;
-    padding: 0;
+    padding: 0 2%;
     color: #FFFFFF;
 }
 
@@ -103,12 +103,12 @@ header {
 /* Menu */
 nav {
     margin: 0 auto;
-    padding: 0;
+    padding: 0 2%;
 }
 
 nav ul {
-    width: 100%;
-    margin: 0;
+    width: 98%;
+    margin: 0 auto;
     padding: 0 0 1em 0;
     list-style: none;
     line-height: normal;
@@ -161,7 +161,7 @@ nav .current_page_item a {
 /* Main */
 main {
     width: 98%;
-    padding: 2%;
+    padding: 0 2%;
     margin: 0 auto;
 }
 
@@ -231,7 +231,7 @@ article .entry {
 /* Sidebar */
 aside {
     width: 98%;
-    padding: 2%;
+    padding: 0 2%;
     margin: 0 auto;
 }
 
