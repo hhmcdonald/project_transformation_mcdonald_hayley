@@ -1,4 +1,5 @@
 # [Hayley's Responsive Transformation repo](https://github.com/hhmcdonald/project_transformation_mcdonald_hayley)
+# [Hayley's Responsive Transformation web hosted project](http://www.hayleymacdesigns.com/responsive-transformation/)
 
 ## Resources
 
