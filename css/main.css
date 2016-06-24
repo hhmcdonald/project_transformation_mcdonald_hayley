@@ -109,7 +109,7 @@ nav {
 nav ul {
     width: 100%;
     margin: 0;
-    padding: 2em 0;
+    padding: 0 0 1em 0;
     list-style: none;
     line-height: normal;
 }
@@ -154,12 +154,14 @@ nav .current_page_item a {
 #banner img {
     width: 100%;
     height: auto;
+    padding-bottom: 2em;
 }
 
 
 /* Main */
 main {
-    width: 100%;
+    width: 98%;
+    padding: 2%;
     margin: 0 auto;
 }
 
@@ -170,7 +172,6 @@ article {
 }
 
 article .title {
-    padding: 7px 0px 0px 0px;
     letter-spacing: -1px;
 }
 
@@ -229,7 +230,8 @@ article .entry {
 
 /* Sidebar */
 aside {
-    width: 100%;
+    width: 98%;
+    padding: 2%;
     margin: 0 auto;
 }
 
