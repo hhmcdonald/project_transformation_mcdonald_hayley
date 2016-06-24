@@ -82,9 +82,9 @@ header {
 }
 
 #logo h1 {
-    line-height: 2.8em;
+    line-height: 2em;
     letter-spacing: -2px;
-    font-size: 3.8em;
+    font-size: 4.8em;
 }
 
 #logo h1 a {
@@ -115,6 +115,7 @@ nav ul {
 }
 
 nav a {
+    font-size: 1.2em;
     display: block;
     line-height: 100px;
     padding: 0 2em;
@@ -270,7 +271,7 @@ aside a:hover {
     text-decoration: underline;
 }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 900px) {
     main {
         float: right;
         margin-left: 1em;
@@ -279,6 +280,13 @@ aside a:hover {
     aside {
         float: left;
         width: calc(100% / 3 - 1em);
+    }
+}
+
+@media all and (min-width: 600px) and (max-width: 900px) {
+    aside section {
+        width: 48%;
+        display: inline-block;
     }
 }
 
