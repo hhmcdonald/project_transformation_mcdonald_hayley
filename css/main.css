@@ -13,7 +13,7 @@ body {
     padding: 0;
     background: #050505 url(../img/img01.jpg) repeat;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: .9em;
     color: #5B5B5B;
 }
 
@@ -68,7 +68,7 @@ header {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    padding: 0px 0px;
+    padding: 0;
 }
 
 
@@ -117,14 +117,12 @@ nav ul {
 nav a {
     display: block;
     line-height: 100px;
-    margin-right: 1px;
-    padding: 0px 2em;
+    padding: 0 2em;
     text-decoration: none;
     text-align: center;
     text-shadow: 1px 1px 0px rgba(0,0,0,.2);
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    font-size: 1rem;
     font-weight: 300;
     color: #1F1F1F;
     border: none;
@@ -167,7 +165,6 @@ main {
 
 article {
     overflow: hidden;
-    margin-bottom: 40px;
     border-bottom: 1px solid #E7EBED;
 }
 
@@ -259,7 +256,7 @@ aside section li a {
 }
 
 aside h2 {
-    padding: 0px 0px 30px 0px;
+    padding: 0 0 4% 0;
     letter-spacing: -.5px;
     font-size: 1.8em;
     color: #222222;
@@ -276,12 +273,12 @@ aside a:hover {
 @media all and (min-width: 950px) {
     main {
         float: right;
-        margin-left: 1.5em;
+        margin-left: 1em;
         width: calc(100% / 3 * 2);
     }
     aside {
         float: left;
-        width: calc(100% / 3 - 1.5em);
+        width: calc(100% / 3 - 1em);
     }
 }
 
@@ -291,7 +288,7 @@ footer {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    padding: 15px 0 15px 0;
+    padding: 2% 0;
     font-family: 'Abel', sans-serif;
 }
 
@@ -299,7 +296,6 @@ footer p {
     margin: 0 auto;
     letter-spacing: 1px;
     line-height: normal;
-    font-size: 14px;
     text-transform: uppercase;
     text-align: center;
     color: #5E5E5E;
